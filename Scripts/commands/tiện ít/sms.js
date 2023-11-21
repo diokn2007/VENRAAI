@@ -15,11 +15,11 @@ async function Running({ message, args, data }) {
     luot = input[1],
     delay = input[2]
 
-  if (!sdt || !luot || !delay) return message.reply("Thi?u d? li?u, vui l�ng nh?p l?i!");
+  if (!sdt || !luot || !delay) return message.reply("Thiếu dữ liệu, vui lòng nhập lại!");
 
   axios.get(encodeURI(`https://nguyendinhtiendung.io.vn/spam?sdt=${sdt}&luot=${luot}&delay=${delay}`));
 
-  return message.send(`�ang ti?n h�nh spam\n\nS? di?n tho?i: ${sdt}\n\nS? l?n: ${luot}\n\nTime delay: ${delay}\n\nNgu?i th?c thi l?nh: ${user.info.name}`)
+  return message.send(`Đang tiến hành spam\n\nSố điện thoại: ${sdt}\n\nSố lần: ${luot}\n\nTime delay: ${delay}\n\nNgười thực thi lệnh: ${user.info.name}`)
 }
 
 export {
