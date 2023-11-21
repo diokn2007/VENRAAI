@@ -1,0 +1,56 @@
+{
+    "APPSTATE_PATH": "./appstate.json",
+    "APPSTATE_PROTECTION": false,
+    "AUTO_PING_SERVER": true,
+    "ALLOW_INBOX": true,
+    "DATABASE": "JSON",
+    "DATABASE_JSON_BEAUTIFY": true,
+    "FCA_OPTIONS": {
+        "pauseLog": true,
+        "logLevel": "silent",
+        "selfListen": true,
+        "listenEvents": true,
+        "forceLogin": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 9; SM-G973U Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"
+    },
+    "LANGUAGE": "vi_VN",
+    "LOG_LEVEL": 1,
+    "MODERATORS": [
+        "100078735176323",
+        "100087141998444",
+        "690319222"
+    ],
+    "ABSOLUTES": [
+        "100078735176323",
+        "100087141998444"
+    ],
+    "NAME": "Nguyên Blue 🐣",
+    "PREFIX": " ",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "REFRESH": "43200000",
+    "GBOTWAR_OPTIONS": {
+        "WEBVIEW": false,
+        "LISTEN_CONSOLE": false,
+        "REGBOX_AMOUNT": 100,
+        "NOTIFICATION_DISPLAY": true,
+        "ALERT_UPDATE": true,
+        "REPLIT": false
+    },
+    "GBOTWAR_CONFIG": {
+        "OTP_KEY": "",
+        "REGBOX_AMOUNT": 100
+    },
+    "GBOTWAR_MESSAGE": {
+        "notiWelecome": "Cha tới rồi nè lũ ngu 🌊",
+        "notiApprove": "BOT-VKN đã được phê duyệt để tham chiến",
+        "notiAutoRegBox": "thằng ngu đang cay anh rõ mà không thể làm gì bất lực rồi hả thằng ngu ngục",
+        "SPAM_STOP": "Tạm tha cho chúng mày đó",
+        "SPAM_START": "Spam đọ đi mấy con óc lồn bại trận!",
+        "GONHAY_STOP": "Chúng mày tuổi lồn mà nhây với tao"
+    },
+    "GBOTWAR_ACTIVE": {
+        "KEY_ACTIVE": "GS629VHDL92LX",
+        "EMAIL": "admin@nguyenblue",
+        "WELECOME": true
+    }
+}

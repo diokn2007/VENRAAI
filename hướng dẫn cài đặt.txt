@@ -1,0 +1,26 @@
+Cài Đặt Termux
+Để chạy được dự án mọi người cần cài đặt termux phiên bản mới nhất ở dưới đây (phiên bản chplay đã ngưng cập nhật) https://f-droid.org/packages/com.termux/
+bước tiếp theo
+Cài đặt các thư viện cần thiết
+pkg update && pkg upgrade && pkg install nodejs && pkg install git && pkg install python
+tiếp là: termux-setup-storage
+bước tiếp theo
+Thiết lập dự án
+Sử dụng lệnh cd sdcard/download && BOT-VKN (NẾU ĐỔI TÊN FILE BOT RỒI THÌ NHẬP TÊN ĐÃ ĐỔI VÀO) để truy cập vào thư mục dự án
+
+bước tiếp theo
+Chạy dòng lệnh bên dưới để cài đặt các thư mục cần thiết
+npm install (lệnh cài đặt các modules cần thiết)
+npm start (bắt đầu chạy Bot)
+node admin (là thêm id admin) 
+node login (là đăng nhập acc fb không cần lấy c3c) 
+
+
+
+
+
+
+
+https://www.python.org/
+https://git-scm.com/
+https://nodejs.org/en
