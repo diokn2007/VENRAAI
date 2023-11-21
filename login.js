@@ -1,6 +1,7 @@
+ 
 import fs from 'fs';
 import inquirer from 'inquirer';
-import nguyenblue from 'nhatcoder-fb-api';
+import nhatcoder from 'nhatcoder-fb-api';
 import child_process from 'child_process';
 
 import Banner from './System/Banner.js';
@@ -30,9 +31,9 @@ async function promptCredentials() {
 }
 
 // Hàm thực hiện đăng nhập vào tài khoản NhatCoder
-async function loginNguyenblue(config, email, password) {
+async function loginNhatcoder(config, email, password) {
   try {
-    const api = await nguyenblue({ email, password }, config.FCA_OPTIONS);
+    const api = await nhatcoder({ email, password }, config.FCA_OPTIONS);
     return api;
   } catch (error) {
     throw error;
@@ -72,7 +73,7 @@ async function main() {
       return;
     }
 
-    const api = await loginNguyenblue(config, emailText, passwordText);
+    const api = await loginNhatcoder(config, emailText, passwordText);
     logger.info(`Đăng nhập thành công tài khoản Facebook có ID là: ${api.getCurrentUserID()}`);
     saveAppstate(api.getAppState());
     logger.info("Hệ thống đã tự động lưu Appstate thành công, Lần tới bạn sẽ không cần đăng nhập lại nữa!");
