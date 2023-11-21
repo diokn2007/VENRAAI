@@ -14,7 +14,7 @@ const langData = {
         "tagall.defaultText": "@everyone"
     },
     "vi_VN": {
-        "tagall.defaultText": "@m?i ngu?i"
+        "tagall.defaultText": "@mọi người"
     }
 }
 
