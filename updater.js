@@ -18,7 +18,7 @@ import {
   createInterface
 } from 'readline';
 
-const baseURL = "https://raw.githubusercontent.com/diokn2007/VENRAAI/main";
+const baseURL = "https://raw.githubusercontent.com/diokn2007/VENRAAI-SERVER/main";
 const allVersionsURL = "https://raw.githubusercontent.com/diokn2007/VENRAAI-SERVER/main/version.json";
 
 
@@ -298,7 +298,7 @@ const main = async () => {
           update(mergedScripts, newPackage);
         } else {
           rl.close();
-          logger.warn("VENRAAI will not be updated.");
+          logger.warn("BOT VKN will not be updated.");
         }
       })
     }

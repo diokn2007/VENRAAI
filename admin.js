@@ -1,4 +1,4 @@
-import { resolve as resolvePath } from 'path';
+﻿import { resolve as resolvePath } from 'path';
 import { readFileSync, writeFileSync, unlinkSync } from "fs";
 import { execSync } from 'child_process';
 import inquirer from 'inquirer';

@@ -1,17 +1,30 @@
 {
-  "gonhay": {
-    "time": 3000
+  "c1": {
+    "DELAY": 2000,
+    "DELAY_THREAD": 60000
   },
-  "spam": {
-    "time": 10000
+  "c2": {
+    "DELAY": 2000,
+    "DELAY_THREAD": 60000
   },
-  "spamv2": {
-    "time": 10000
+  "c3": {
+    "DELAY": 2000,
+    "DELAY_THREAD": 60000
   },
-  "taobox": {
-    "delay": 450
+  "c4": {
+    "DELAY": 2000,
+    "DELAY_THREAD": 60000
   },
-  "chuingon": {
+  "n1": {
+    "time": 2000
+  },
+  "sp": {
+    "time": 2000
+  },
+  "sp2": {
+    "time": 2000
+  },
+  "s5": {
     "list": [
       "Chảnh cầy ” mà cứ tưỡng Fair Play\nNgoài mặt thì thơ ngây\nNhưg bên trog đúg chất mặt DÀY\nXoắn ai ckứ đừg xoắn tao\nĐã là chó ngao thì đừng quá tự cao\nPhiêu cũng sập , đéo phiêu cũng phập\nCảm thấy có thể lấp thì cứ nhiệt tình\nMày nghĩ tao ngán mày lắm sao",
       "Nè thằng chó, ra nghe bố nói này, Ngày xưa mẹ con mất trinh non cũng là vì bố đấy, Rồi mẹ con đái ỉa ra con cũng là do bố cấy, Rồi mẹ mài sinh ra mài như một thằng quái thú, Mỗi lần cho bú tao phải đút cu vào trong mồm mài vì con mẹ mài ko có vú",
@@ -51,7 +64,10 @@
       "ừ tao nghi si dốt nát còn hơn cái đứa vô danh tiểu tốt sinh ra từ ống cống như mày đấy? nhảm thì nhảm nó vừa thôi chứ nhảm quá tao dùng găng tay của Thanos búng tay một phát thôi là mày bay vòng quanh Trái Đất xoay vòng vòng xuyên 9749292 tỷ năm ánh sáng luôn nhé con ôn. sống thì sống nó ra người đi chứ mày sống mà cái nết đéo bằng con chó nhà tao mà đòi táp tao? bập bẹ nhảm lồn được vài ba câu xàm ngôn bày đặt táp tao là sao em ơi? chị đây đéo muốn nói với mấy đứa thân phận hèn hạ thấp kém ngu lồn như em đâu, nhưng em đã cúi đầu khóc thét cầu xin chị mày thì chị mày sẵng sàng dạy cho em vài câu luôn nè? cái ngôn ngắn ngủn của em người ta đọc còn chán ngắt ra này đặt đâp tao chi để người ta cười vào cái bản mặt vô tri vô giác của mày? đây đâu phải cái cung điện rẻ rách của mày đâu mà vênh mặt lên bắt người ta cúi xuống làm nô lệ của mình? suốt ngày lơ lửng ở đầu đường xó chợ đi phá dân làng rồi phá ruộng đồng nhà người ta sao em chết mà cái nết vẫn i sì con chuột mặc dù đã đầu thai rồi vậy? vô tri vô giác vô danh tiểu tốt sinh ra đã hèn hạ rồi mãi mãi là hèn hạ thôi em ạ, em lôi học thức vào đây chi rồi bây giờ tự làm nhục bản thân rồi vả bốp bốp vào mặt cầu xin chị tha lỗi? chị mày phải lặn lội lên chùa tụng kinh cầu xin cho oan hồn nghiệt ngã không nơi trú ẩn của em được siêu thoát chứ toàn núp ở nhà người dân phá hoại làng xóm như mày sau này Diêm Vương biết lại đì mày xuống tầng 18 lúc đó lại khóc thét cầu xin thì cũng quá muộn rồi em ạ. sống đéo bằng con chó trốn thui trốn rủi trong góc đường thì tốt nhất mày nên đi quét rác hiến nội tạng của mày đi để người khác giữ chứ mày giữ cái nội tạng của mày con phải thốt lên ôi con này hãm nhờ? làm việc tốt để sau này Diêm Vương còn thấy lòng tốt của mày đì mày xuống tầng 10 cho ma trêu quỷ hờn nó lại vo mày lại thành bóng rồi ném qua ném lại cho mày chóng mặt đi ha? rồi lúc đó lại hỏi làm việc tốt mà vẫn k ha?"
     ]
   },
-  "daoly": {
+  "dl": {
     "extraProp": "This is an extra property"
+  },
+  "n3": {
+    "time": 3000
   }
 }

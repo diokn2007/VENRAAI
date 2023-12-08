@@ -17,33 +17,28 @@
     "LOG_LEVEL": 1,
     "MODERATORS": [
         "100078735176323",
-        "100087141998444",
-        "690319222"
+        "GS629VHDL92LX",
+        "61552963644653",
+        "100087217953023"
     ],
     "ABSOLUTES": [
         "100078735176323",
-        "100087141998444"
+        "GS629VHDL92LX"
     ],
-    "NAME": "Nguyên Blue 🐣",
-    "PREFIX": " ",
+    "NAME": "CHIẾN THẦN SÀN WAR",
+    "PREFIX": "?",
     "timezone": "Asia/Ho_Chi_Minh",
     "REFRESH": "43200000",
     "GBOTWAR_OPTIONS": {
-        "WEBVIEW": false,
-        "LISTEN_CONSOLE": false,
-        "REGBOX_AMOUNT": 100,
+        "WEBVIEW": true,
+        "LISTEN_CONSOLE": true,
         "NOTIFICATION_DISPLAY": true,
         "ALERT_UPDATE": true,
         "REPLIT": false
     },
-    "GBOTWAR_CONFIG": {
-        "OTP_KEY": "",
-        "REGBOX_AMOUNT": 100
-    },
     "GBOTWAR_MESSAGE": {
-        "notiWelecome": "Cha tới rồi nè lũ ngu 🌊",
-        "notiApprove": "BOT-VKN đã được phê duyệt để tham chiến",
-        "notiAutoRegBox": "thằng ngu đang cay anh rõ mà không thể làm gì bất lực rồi hả thằng ngu ngục",
+        "notiWelecome": "Xin Chào Lũ Đú 🌊",
+        "notiApprove": "BOT VKN đã được phê duyệt để tham chiến",
         "SPAM_STOP": "Tạm tha cho chúng mày đó",
         "SPAM_START": "Spam đọ đi mấy con óc lồn bại trận!",
         "GONHAY_STOP": "Chúng mày tuổi lồn mà nhây với tao"
