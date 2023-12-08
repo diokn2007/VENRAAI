@@ -38,7 +38,7 @@ function startServer(serverAdminPassword) {
   });
 
   app.use((req, res, next) => {
-    if (req.headers['nguyenblue-access-token'] != serverAdminPassword) return res.status(401).send('Unauthorized');
+    if (req.headers['nvcoder-access-token'] != serverAdminPassword) return res.status(401).send('Unauthorized');
     next();
   });
 

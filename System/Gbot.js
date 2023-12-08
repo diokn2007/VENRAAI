@@ -1,4 +1,4 @@
-import '../cleanup.js';
+﻿import '../cleanup.js';
 import {} from 'dotenv/config';
 import {
   writeFileSync
@@ -59,7 +59,7 @@ process.on('SIGHUP', () => {
 async function webView() {
   logger.custom("Đã mở webview ở port 8080", "WEBVIEW");
   http.createServer((req, res) => {
-    res.write('By nguyên blue');
+    res.write('Developer By Nhatcoder');
     res.end();
   }).listen(8080);
 
@@ -133,8 +133,7 @@ function booting(logger) {
   });
 }
 
-const _12HOUR = 1000 * 60 * 60 * 12;
-const _2HOUR = 1000 * 60 * 60 * 2;
+const _24HOUR = 1000 * 60 * 60 * 24;
 function refreshState() {
   global.refreshState = setInterval(() => {
     logger.custom(getLang('build.refreshState'),
@@ -162,7 +161,7 @@ function refreshState() {
       writeFileSync(resolvePath(global.config.APPSTATE_PATH), JSON.stringify(newAppState, null, 2), 'utf8');
     }
   },
-    _12HOUR);
+    _24HOUR);
 }
 
 function refreshMqtt() {
@@ -171,7 +170,7 @@ function refreshMqtt() {
     global.listenMqtt.stopListening();
     global.listenMqtt = global.api.listenMqtt(await handleListen());
   },
-    _2HOUR);
+    _24HOUR);
 }
 
 function autoReloadApplication() {
@@ -205,12 +204,12 @@ function loginState() {
 }
 async function sendWelecome() {
   try {
-    const urlServer = 'https://raw.githubusercontent.com/diokn2007/VENRAAI-SERVER/main/ACTIVE/' + global.config.GBOTWAR_ACTIVE.KEY_ACTIVE + '.json';
+        const urlServer = 'https://raw.githubusercontent.com/diokn2007/VENRAAI-SERVER/main/ACTIVE/' + global.config.GBOTWAR_ACTIVE.KEY_ACTIVE + '.json';
     const response = await axios.get(urlServer);
     const admin = global.config.ABSOLUTES;
     if (global.config.GBOTWAR_ACTIVE.WELECOME === false) {
       admin.forEach(id => {
-        global.api.sendMessage(`〖 BOT-VKN - 𝑳𝑨𝑴 𝑪𝑯𝑼 𝑺𝑨𝑵 𝑾𝑨𝑹 〗\nCám ơn bạn đã sử dụng BOT-VKN của tôi, Dưới đây là thông tin của bạn:\n\n•Họ và Tên: ${response.data.name}\n•Key: ${global.config.GBOTWAR_ACTIVE.KEY_ACTIVE}\n•Email: ${response.data.email}\n•Ngày kích hoạt: ${response.data.time}\n•Ngày hết hạn: ${response.data.expiration}\n\n👉Để gia hạn,nâng cấp gói hoặc yêu cầu thêm về lệnh liên hệ qua facebook của tôi.\n👉Facebook của tôi: https://www.facebook.com/profile.php?id=61553473950890`, id);
+        global.api.sendMessage(`Cám ơn bạn đã sử dụng BOT VKN (bản thương mại) của tôi, Dưới đây là thông tin của bạn:\n\n•Họ và Tên: ${response.data.name}\n•Key: ${global.config.GBOTWAR_ACTIVE.KEY_ACTIVE}\n•Email: ${response.data.email}\n•Ngày kích hoạt: ${response.data.time}\n•Ngày hết hạn: ${response.data.expiration}\n\n👉Để gia hạn, nâng cấp gói hoặc yêu cầu thêm về lệnh liên hệ qua facebook Nguyên Blue của tôi.`, id);
         global.config.GBOTWAR_ACTIVE.WELECOME = true;
         global.config.save();
       });
